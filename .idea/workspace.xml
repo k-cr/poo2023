@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1d31ddb-21d0-44d4-9dc4-f1c6aaf96006" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gestores/Esqueleto_gestores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gestores/Gestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gestores/Objeto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_8/Circunferencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_8/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_8/GestorFiguras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_8/Linea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_8/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/GestorProgramas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/Programa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/blackbox_ejemplo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gestores/Esqueleto_gestores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gestores/Esqueleto_gestores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
