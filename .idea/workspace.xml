@@ -5,14 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1d31ddb-21d0-44d4-9dc4-f1c6aaf96006" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/GestorProgramas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/Programa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/blackbox_ejemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gestores_Nico/TestObjeto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gestores_Nico/TestObjetoHija.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gestores_Nico/TestPrueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gestores_Nico/TestVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_10/Diario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_10/GestorPublicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_10/Publicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_10/Revista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_11/Amarre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_11/Barco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_11/Deportivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_11/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_11/Puerto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_11/Velero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_11/Yate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProgramaMateo/Cosas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProgramaMateo/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProgramaMateo/Pizarra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProgramaMateo/Rectangulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gestores/Esqueleto_gestores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gestores/Esqueleto_gestores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/GestorProgramas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/GestorProgramas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencia_Polimorfismo/Herencia_TP1/Punto_9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

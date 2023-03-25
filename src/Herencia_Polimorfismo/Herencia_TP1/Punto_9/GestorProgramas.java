@@ -1,4 +1,5 @@
 package Herencia_Polimorfismo.Herencia_TP1.Punto_9;
+import javax.swing.*;
 import java.util.Vector;
 
 public class GestorProgramas {
@@ -8,9 +9,10 @@ public class GestorProgramas {
     }
     public void agregarPrograma(Programa programa) {
         programas.add(programa);
+        JOptionPane.showMessageDialog(null, "Programa añadido");
     }
-    public void mostrarProgramas() {
-        System.out.println("Programas disponibles: ");
+    public String mostrarProgramas() {
+        String textoMensaje = "";
         for (Programa programa: programas) {
             String tipo = "";
             if(programa.getClass() == Television.class) {
@@ -18,26 +20,29 @@ public class GestorProgramas {
             } else if (programa.getClass() == Radio.class) {
                 tipo = "Radio";
             }
-            System.out.println("> " + tipo + " de duración: " + programa.getDuracionMinutos() + " minutos.");
+            textoMensaje = (textoMensaje + "> Programa de " + tipo + " de duración: " + programa.getDuracionMinutos() + " minutos \n");
         }
+        return textoMensaje;
     }
-    public void cantidadComerciales() {
+    public String cantidadComerciales() {
+        String textoMensaje = "";
         for (Programa programa: programas) {
             String tipo = "";
             if(programa.getClass() == Television.class) {
-                System.out.println("Para el programa de Televisión con duración "
+                textoMensaje = textoMensaje + "Para el programa de televisión con duración "
                         + programa.getDuracionMinutos()
                         + " minutos de la emisora " + programa.getEmisora()
                         + ", la cantidad de comerciales es de: "
-                        + programa.mostrarComerciales() + " por tanda");
+                        + programa.mostrarComerciales() + " por tanda \n";
             } else if (programa.getClass() == Radio.class) {
-                System.out.println("Para el programa de radio con duración "
+                textoMensaje = textoMensaje + "Para el programa de radio con duración "
                         + programa.getDuracionMinutos()
                         + " minutos de la emisora " + programa.getEmisora()
                         + ", la cantidad de comerciales es de: "
                         + programa.mostrarComerciales() +
-                        " a razón de 20 minutos del programa");
+                        " a razón de 20 minutos del programa \n";
             }
         }
+        return textoMensaje;
     }
 }
