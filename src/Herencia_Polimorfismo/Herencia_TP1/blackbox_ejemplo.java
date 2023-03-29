@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class blackbox_ejemplo {
     static String pedir;
-    static Scanner scanner = new Scanner(System.in); //Sirve para recoger texto por consola
+    static Scanner scanner = new Scanner(System.in); //Sirve para recoger texto consola
     static int select = -1; //opción elegida del usuario
     static int base, altura, area, perimetro, radio, ladoEquilatero, baseRectangulo, alturaRectangulo, baseTrianguloRectangulo, alturaTrianguloRectangulo; //Variables
     static double areaCirculo, perimetroCirculo, areaEquilatero, perimetroEquilatero, areaRectangulo, hipotenusaRectangulo, perimetroRectangulo, perimetroTrianguloRectangulo;
