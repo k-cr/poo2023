@@ -15,9 +15,9 @@ public class GestorProgramas {
         String textoMensaje = "";
         for (Programa programa: programas) {
             String tipo = "";
-            if(programa.getClass() == Television.class) {
+            if(programa instanceof Television) {
                 tipo = "Televisión";
-            } else if (programa.getClass() == Radio.class) {
+            } else if (programa instanceof Radio) {
                 tipo = "Radio";
             }
             textoMensaje = (textoMensaje + "> Programa de " + tipo + " de duración: " + programa.getDuracionMinutos() + " minutos \n");
@@ -27,14 +27,13 @@ public class GestorProgramas {
     public String cantidadComerciales() {
         String textoMensaje = "";
         for (Programa programa: programas) {
-            String tipo = "";
-            if(programa.getClass() == Television.class) {
+            if(programa instanceof Television) {
                 textoMensaje = textoMensaje + "Para el programa de televisión con duración "
                         + programa.getDuracionMinutos()
                         + " minutos de la emisora " + programa.getEmisora()
                         + ", la cantidad de comerciales es de: "
                         + programa.mostrarComerciales() + " por tanda \n";
-            } else if (programa.getClass() == Radio.class) {
+            } else if (programa instanceof Radio) {
                 textoMensaje = textoMensaje + "Para el programa de radio con duración "
                         + programa.getDuracionMinutos()
                         + " minutos de la emisora " + programa.getEmisora()

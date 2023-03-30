@@ -27,6 +27,11 @@ public class Rectangulo extends Figura {
     }
 
     @Override
+    public void dibujarFigura() {
+        System.out.println("Dibujando un rectángulo");
+    }
+
+    @Override
     public double calcularPerimetro() {
         return (this.getLargo() * 2) + (this.getAncho() * 2);
     }

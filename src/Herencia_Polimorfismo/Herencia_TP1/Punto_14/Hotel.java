@@ -48,6 +48,6 @@ public class Hotel extends Alojamiento{
     }
 
     public double calcularPrecio() {
-        return 0;
+        return precio;
     }
 }

@@ -28,6 +28,6 @@ public class Yate extends Barco{
 
     @Override
     public double calcularPrecio() {
-        return (eslora + potencia + camarotes) * 10;
+        return super.calcularPrecio() + potencia + camarotes;
     }
 }

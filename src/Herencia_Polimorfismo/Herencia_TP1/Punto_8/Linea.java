@@ -17,6 +17,11 @@ public class Linea extends Figura{
     }
 
     @Override
+    public void dibujarFigura() {
+        System.out.println("Dibujando una línea");
+    }
+
+    @Override
     public double calcularPerimetro() {
         return this.getLongitud();
     }

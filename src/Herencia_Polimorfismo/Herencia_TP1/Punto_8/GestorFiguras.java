@@ -1,6 +1,4 @@
 package Herencia_Polimorfismo.Herencia_TP1.Punto_8;
-
-import java.util.ArrayList;
 import java.util.Vector;
 
 public class GestorFiguras {
@@ -13,6 +11,31 @@ public class GestorFiguras {
     {
         pizarra.addElement(figura);
     }
+
+/*    public void mostrarFiguras()
+    {
+        System.out.println("Figuras dibujadas: ");
+        for (Figura figura : pizarra)
+        {
+            String tipo = "";
+            Vector<String> caracteristicas = new Vector<String>(10);
+            if (figura instanceof Rectangulo) {
+                tipo = "Rectángulo";
+                caracteristicas.add("ancho: " + ((Rectangulo) figura).getAncho());
+                caracteristicas.add(" alto: " + ((Rectangulo) figura).getLargo());
+            } else if (figura instanceof Linea) {
+                tipo = "Línea";
+                caracteristicas.add("longitud: " + ((Linea) figura).getLongitud());
+            } else if (figura instanceof Circunferencia) {
+                tipo = "Círculo";
+                caracteristicas.add("radio: " + ((Circunferencia) figura).getRadio());
+            }
+            System.out.println("> " + tipo + " con fondo: " + figura.getColorFondo() + ", y borde: " + figura.getColorBorde() + " con: " + caracteristicas.toString());
+        }
+    }
+
+    */
+
     public void mostrarFiguras()
     {
         System.out.println("Figuras dibujadas: ");
@@ -20,14 +43,14 @@ public class GestorFiguras {
         {
             String tipo = "";
             Vector<String> caracteristicas = new Vector<String>(10);
-            if (figura.getClass() == Rectangulo.class) {
+            if (figura instanceof Rectangulo) {
                 tipo = "Rectángulo";
                 caracteristicas.add("ancho: " + ((Rectangulo) figura).getAncho());
                 caracteristicas.add(" alto: " + ((Rectangulo) figura).getLargo());
-            } else if (figura.getClass() == Linea.class) {
+            } else if (figura instanceof Linea) {
                 tipo = "Línea";
                 caracteristicas.add("longitud: " + ((Linea) figura).getLongitud());
-            } else if (figura.getClass() == Circunferencia.class) {
+            } else if (figura instanceof Circunferencia) {
                 tipo = "Círculo";
                 caracteristicas.add("radio: " + ((Circunferencia) figura).getRadio());
             }
@@ -54,6 +77,13 @@ public class GestorFiguras {
             System.out.println("No hay elemento ahí.");
         }
     }
+    public void mostrarRadios() {
+        for (Figura figura : pizarra) {
+            if (figura instanceof Circunferencia) {
+                System.out.println(" > Radio: " + ((Circunferencia) figura).radio);
+            }
+        }
+    }
     public void perimetroFiguras()
     {
         for (Figura figura : pizarra)
@@ -63,7 +93,6 @@ public class GestorFiguras {
     }
     public void superficieFiguras()
     {
-        double superficie = 0;
         for (Figura figura : pizarra)
         {
             System.out.println("> " + figura.calcularSuperficie());

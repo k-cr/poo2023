@@ -35,5 +35,7 @@ public class Barco {
         this.anhoFabricacion = anhoFabricacion;
     }
 
-    public double calcularPrecio() { return 0; }
+    public double calcularPrecio() {
+        return eslora * 10 * 2;
+    }
 }

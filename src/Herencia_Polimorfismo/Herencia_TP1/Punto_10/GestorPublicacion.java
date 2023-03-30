@@ -19,9 +19,9 @@ public class GestorPublicacion {
         String textoMensaje = "";
         for (Publicacion publicacion: publicaciones) {
             String tipo = "";
-            if (publicacion.getClass() == Diario.class) {
+            if (publicacion instanceof Diario) {
                 tipo = "diario";
-            } else if (publicacion.getClass() == Revista.class) {
+            } else if (publicacion instanceof Revista) {
                 tipo = "revista";
             }
             textoMensaje = textoMensaje + "> " + tipo + " con precio: $" + publicacion.calcularPrecio() + "\n";

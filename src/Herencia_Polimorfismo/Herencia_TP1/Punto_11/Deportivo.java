@@ -18,6 +18,6 @@ public class Deportivo extends Barco{
 
     @Override
     public double calcularPrecio() {
-        return (eslora + potencia) * 10;
+        return super.calcularPrecio() + potencia;
     }
 }

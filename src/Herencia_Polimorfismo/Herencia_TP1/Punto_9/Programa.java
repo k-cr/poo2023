@@ -1,6 +1,6 @@
 package Herencia_Polimorfismo.Herencia_TP1.Punto_9;
 
-public class Programa {
+public abstract class Programa {
     String titulo;
     String responsable;
     int id;
@@ -65,7 +65,5 @@ public class Programa {
         this.emisora = emisora;
     }
 
-    public int mostrarComerciales() {
-        return 0;
-    }
+    public abstract int mostrarComerciales();
 }

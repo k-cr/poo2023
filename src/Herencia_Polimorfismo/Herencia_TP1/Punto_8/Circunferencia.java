@@ -1,6 +1,8 @@
 package Herencia_Polimorfismo.Herencia_TP1.Punto_8;
 
-public class Circunferencia extends Figura{
+import javax.swing.*;
+
+public class Circunferencia extends Figura {
     public double radio;
 
     public Circunferencia(String colorFondo, String colorBorde, double radio) {
@@ -14,6 +16,11 @@ public class Circunferencia extends Figura{
 
     public void setRadio(double radio) {
         this.radio = radio;
+    }
+
+    @Override
+    public void dibujarFigura() {
+        System.out.println("Dibujando círculo");
     }
 
     @Override

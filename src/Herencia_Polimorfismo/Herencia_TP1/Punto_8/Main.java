@@ -1,5 +1,4 @@
 package Herencia_Polimorfismo.Herencia_TP1.Punto_8;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -26,47 +25,45 @@ public class Main {
                 {
                     System.out.println("¿Qué quiere añadir? 1) Círculo, 2) Rectángulo, 3) Línea.");
                     int op = input.nextInt();
-                    switch (op)
-                    {
-                        case 1:
-                            System.out.println(" ");
-                            System.out.println("Ingrese el radio del círculo");
+                    switch (op) {
+                        case 1 -> {
+                            System.out.print("Ingrese el radio del círculo: ");
                             double radio = input.nextDouble();
-                            System.out.println("Ingrese el color del fondo del círculo");
+                            System.out.print("Ingrese el color del fondo del círculo: ");
                             String fondo = input.nextLine();
-                            System.out.println("Ingrese el color del borde del círculo");
+                            input.nextLine();
+                            System.out.print("Ingrese el color del borde del círculo:");
                             String borde = input.nextLine();
                             Circunferencia circulo = new Circunferencia(fondo, borde, radio);
                             gestorFiguras.agregarFigura(circulo);
                             System.out.println("Se ha agregado el círculo.");
-                            break;
-
-                        case 2:
-                            System.out.println(" ");
-                            System.out.println("Ingrese cuánto vale la base");
+                        }
+                        case 2 -> {
+                            System.out.print("Ingrese cuánto vale la base: ");
                             double base = input.nextDouble();
-                            System.out.println("Ingrese cuánto vale la altura");
+                            System.out.print("Ingrese cuánto vale la altura: ");
                             double altura = input.nextDouble();
-                            System.out.println("Ingrese el color del fondo del rectángulo");
-                            fondo = input.nextLine();
-                            System.out.println("Ingrese el color del borde del rectángulo");
-                            borde = input.nextLine();
+                            System.out.print("Ingrese el color del fondo del rectángulo: ");
+                            String fondo = input.nextLine();
+                            input.nextLine();
+                            System.out.print("Ingrese el color del borde del rectángulo: ");
+                            String borde = input.nextLine();
                             Rectangulo rectangulo = new Rectangulo(fondo, borde, base, altura);
                             gestorFiguras.agregarFigura(rectangulo);
                             System.out.println("Se ha agregado el rectángulo.");
-                            break;
-                        case 3:
-                            System.out.println(" ");
-                            System.out.println("Ingrese la longitud de la línea");
+                        }
+                        case 3 -> {
+                            System.out.print("Ingrese la longitud de la línea: ");
                             double longitud = input.nextDouble();
-                            System.out.println("Ingrese el color del fondo de la línea");
-                            fondo = input.nextLine();
-                            System.out.println("Ingrese el color del borde de la línea");
-                            borde = input.nextLine();
+                            System.out.print("Ingrese el color del fondo de la línea: ");
+                            String fondo = input.nextLine();
+                            input.nextLine();
+                            System.out.print("Ingrese el color del borde de la línea: ");
+                            String borde = input.nextLine();
                             Linea linea = new Linea(fondo, borde, longitud);
                             gestorFiguras.agregarFigura(linea);
                             System.out.println("Se agregó una línea. ");
-                            break;
+                        }
                     }
                 }
                 case 2 -> // Manejar caso 2
