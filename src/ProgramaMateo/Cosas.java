@@ -7,7 +7,6 @@ public class Cosas
         Pizarra hola=new Pizarra();
         Scanner scanner=new Scanner(System.in);
 
-        String c;
         String a;
         String b;
 
