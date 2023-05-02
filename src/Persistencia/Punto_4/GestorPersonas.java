@@ -12,8 +12,12 @@ public class GestorPersonas implements Serializable {
     }
 
     public void addPerson(Persona persona) {
-        personas.add(persona);
-        JOptionPane.showMessageDialog(null, "Persona agregada.");
+        if (!personas.contains(persona)) {
+            personas.add(persona);
+            JOptionPane.showMessageDialog(null, "Persona agregada.");
+        } else {
+            JOptionPane.showMessageDialog(null, "Esta persona ya existe.");
+        }
     }
 
     public void removePerson(String n) {

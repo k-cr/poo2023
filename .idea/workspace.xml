@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1d31ddb-21d0-44d4-9dc4-f1c6aaf96006" name="Changes" comment="Programa mateo">
-      <change afterPath="$PROJECT_DIR$/auxiliar.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datos.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enteros.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personasNuevas.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persistencia/Punto_1/ArchivoEnteros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persistencia/Punto_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persistencia/Punto_1/enteros.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persistencia/Punto_2/ArchivoPersonas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persistencia/Punto_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persistencia/Punto_2/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persistencia/Punto_2/auxiliar.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persistencia/Punto_2/datos.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persistencia/Punto_4/GestorPersonas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persistencia/Punto_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persistencia/Punto_4/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parcial_1/Punto_1/Documental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parcial_1/Punto_1/GestorProgramas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parcial_1/Punto_1/Pelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parcial_1/Punto_1/Programa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parcial_1/Punto_1/Series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parcial_1/Punto_3/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parcial_1/Punto_3/ArchivoPromedios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Excepciones/Punto_7_Hashtable/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excepciones/Punto_7_Hashtable/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Excepciones/Punto_7_Hashtable/TableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excepciones/Punto_7_Hashtable/TableException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persistencia/Punto_4/GestorPersonas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persistencia/Punto_4/GestorPersonas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +50,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Universidad\POO\poo2023\src\Persistencia\Punto_4" />

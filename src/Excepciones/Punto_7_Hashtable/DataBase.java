@@ -51,6 +51,26 @@ public class DataBase {
         }
     }
 
+    public void renameTable(String nombre1, String nombre2) throws DBException, TableException{
+        ArrayList<Table> tablas = new ArrayList<>(10);
+        if (!abierto) {
+            throw new DBException();
+        } else {
+            int indice = 0;
+            boolean encontrato = false;
+            if(!container.containsKey(nombre1)) {
+                throw new TableException(1);
+            } else {
+                if (container.containsKey(nombre2)) {
+                    throw new TableException(2);
+                } else {
+                    container.get(nombre1).setNombre(nombre2);
+                    System.out.println("¡Logrado!");
+                }
+            }
+        }
+    }
+
     public String listTables() throws DBException {
         String textoMensaje = "Las tablas que están cargados son: \n";
         ArrayList<Table> tablas = new ArrayList<>(10);
