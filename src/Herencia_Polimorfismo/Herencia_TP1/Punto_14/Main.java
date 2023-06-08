@@ -1,11 +1,9 @@
 package Herencia_Polimorfismo.Herencia_TP1.Punto_14;
 
 import javax.swing.*;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         GestorAlojamientos gestor = new GestorAlojamientos();
         int opcion = -1;
         int op = -1;
@@ -34,7 +32,6 @@ public class Main {
                                         -------------------------------""");
                         op = Integer.parseInt(hotelExtra);
                         switch (op) {
-                            // TODO: Hoteles
                             case 1 -> {
                                 String hoteles = JOptionPane.showInputDialog(null,
                                         """
@@ -94,7 +91,6 @@ public class Main {
                                     }
                                 }
                             }
-                            // TODO: Extra hotelero
                             case 2 -> {
                                 String extrahoteleros = JOptionPane.showInputDialog(null,
                                         """

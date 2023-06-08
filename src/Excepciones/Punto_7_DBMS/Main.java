@@ -1,7 +1,5 @@
 package Excepciones.Punto_7_DBMS;
 
-import Excepciones.Punto_7_Hashtable.DBException;
-
 import javax.swing.*;
 
 public class Main {

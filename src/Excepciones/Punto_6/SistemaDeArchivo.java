@@ -2,7 +2,6 @@ package Excepciones.Punto_6;
 
 import javax.swing.*;
 import java.util.Vector;
-import java.util.jar.JarEntry;
 
 public class SistemaDeArchivo {
     Vector<Archivo> archivos;

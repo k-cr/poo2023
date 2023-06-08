@@ -1,10 +1,11 @@
-package Arboles.Punto_5;
+package Arboles.Punto_9;
 
+import Arboles.Arbol;
 import Arboles.Nodo;
 
-public class Arbol_6 {
+public class Arbol_9 extends Arbol {
     Nodo raiz;
-    public Arbol_6() {
+    public Arbol_9() {
         raiz = null;
     }
 

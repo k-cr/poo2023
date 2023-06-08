@@ -20,4 +20,12 @@ public class Usuario {
     void reset() {
         cuenta = 0;
     }
+
+    String getNombre() {
+        return nombre;
+    }
+
+    String getDni() {
+        return dni;
+    }
 }

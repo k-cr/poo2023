@@ -29,7 +29,6 @@ public class DataBase {
         } else if (indice < 0 || indice > container.size()){
             throw new TableException();
         } else {
-            String nombreTabla = container.elementAt(indice).getNombre();
             container.remove(indice);
             JOptionPane.showMessageDialog(null, "Tabla Eliminado.");
         }

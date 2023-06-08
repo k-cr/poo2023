@@ -1,12 +1,10 @@
 package Herencia_Polimorfismo.Herencia_TP1.Punto_11;
 
 import javax.swing.*;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         // Instanciar objetos.
-        Scanner input = new Scanner(System.in);
         Puerto puerto = new Puerto();
         int opcion = -1;
         int op = -1;

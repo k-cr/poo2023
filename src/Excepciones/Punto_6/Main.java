@@ -1,11 +1,9 @@
 package Excepciones.Punto_6;
 
 import javax.swing.*;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         SistemaDeArchivo sistema = new SistemaDeArchivo(1, 1000000);
         int opcion = -1;
         do {

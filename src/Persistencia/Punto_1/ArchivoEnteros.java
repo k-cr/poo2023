@@ -30,15 +30,16 @@ public class ArchivoEnteros {
     public void aumentarImpares_Menores53() {
         try
         {
-            RandomAccessFile file = new RandomAccessFile("numeros.dat", "rw");
-            file.seek(0);
-            while(file.getFilePointer() < file.length())
-            {
-                int numero = file.readInt();
-                if (numero %2 != 0 && numero < 53) {
-                    int numeroAumentado = numero + 2;
-                    file.seek(file.getFilePointer() - 4);
-                    file.writeInt(numeroAumentado);
+            try (RandomAccessFile file = new RandomAccessFile("numeros.dat", "rw")) {
+                file.seek(0);
+                while(file.getFilePointer() < file.length())
+                {
+                    int numero = file.readInt();
+                    if (numero %2 != 0 && numero < 53) {
+                        int numeroAumentado = numero + 2;
+                        file.seek(file.getFilePointer() - 4);
+                        file.writeInt(numeroAumentado);
+                    }
                 }
             }
         }

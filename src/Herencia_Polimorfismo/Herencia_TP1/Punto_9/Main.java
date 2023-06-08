@@ -1,10 +1,8 @@
 package Herencia_Polimorfismo.Herencia_TP1.Punto_9;
 import javax.swing.*;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         GestorProgramas gestor = new GestorProgramas();
         int opcion = -1;
         int op = -1;

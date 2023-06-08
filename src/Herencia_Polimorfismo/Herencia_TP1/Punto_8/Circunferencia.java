@@ -1,6 +1,5 @@
 package Herencia_Polimorfismo.Herencia_TP1.Punto_8;
 
-import javax.swing.*;
 
 public class Circunferencia extends Figura {
     public double radio;

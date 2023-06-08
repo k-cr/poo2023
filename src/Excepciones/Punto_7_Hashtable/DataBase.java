@@ -44,7 +44,7 @@ public class DataBase {
         if (!abierto) {
             throw new DBException();
         } else if (!container.containsKey(id)) {
-            throw new TableException();
+            throw new TableException(1);
         } else {
             container.remove(id);
             JOptionPane.showMessageDialog(null, "Tabla eliminada.");
@@ -52,12 +52,9 @@ public class DataBase {
     }
 
     public void renameTable(String nombre1, String nombre2) throws DBException, TableException{
-        ArrayList<Table> tablas = new ArrayList<>(10);
         if (!abierto) {
             throw new DBException();
         } else {
-            int indice = 0;
-            boolean encontrato = false;
             if(!container.containsKey(nombre1)) {
                 throw new TableException(1);
             } else {

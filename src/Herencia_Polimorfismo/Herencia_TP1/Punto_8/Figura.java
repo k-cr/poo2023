@@ -28,10 +28,7 @@ public abstract class Figura {
     }
 
     // Métodos
-    // TODO: Convertir a abstracto para mejor implementación
     public abstract void dibujarFigura();
-    // TODO: Convertir a abstracto para mejor implementación
     public abstract double calcularPerimetro();
-    // TODO: Convertir a abstracto para mejor implementación
     public abstract double calcularSuperficie();
 }

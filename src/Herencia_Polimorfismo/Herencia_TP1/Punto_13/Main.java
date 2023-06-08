@@ -1,12 +1,9 @@
 package Herencia_Polimorfismo.Herencia_TP1.Punto_13;
 
 import javax.swing.*;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Instanciar objetos.
-        Scanner input = new Scanner(System.in);
         GestorDocumentos gestorDocumentos = new GestorDocumentos();
         int opcion = -1;
         int op = -1;

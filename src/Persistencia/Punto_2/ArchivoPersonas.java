@@ -1,6 +1,8 @@
 package Persistencia.Punto_2;
 
 import javax.swing.*;
+
+import java.awt.HeadlessException;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -103,24 +105,27 @@ public class ArchivoPersonas {
 
     public void guardarEnArchivoMayor160cm () {
         try {
-            RandomAccessFile auxiliar = new RandomAccessFile("auxiliar.dat", "rw");
-            while(archivo.getFilePointer() < file.length())
-            {
-                String nombre = archivo.readUTF();
-                int dni = archivo.readInt();
-                double altura = archivo.readDouble();
-                if (altura >= 1.60) {
-                    try {
-                        if (auxiliar.length() > 0) {
-                            auxiliar.seek(auxiliar.length());
+            try (RandomAccessFile auxiliar = new RandomAccessFile("auxiliar.dat", "rw")) {
+                while(archivo.getFilePointer() < file.length())
+                {
+                    String nombre = archivo.readUTF();
+                    int dni = archivo.readInt();
+                    double altura = archivo.readDouble();
+                    if (altura >= 1.60) {
+                        try {
+                            if (auxiliar.length() > 0) {
+                                auxiliar.seek(auxiliar.length());
+                            }
+                            auxiliar.writeUTF(nombre);
+                            auxiliar.writeInt(dni);
+                            auxiliar.writeDouble(altura);
+                        } catch (IOException e) {
+                            JOptionPane.showMessageDialog(null, "Error en entrada/salida");
                         }
-                        auxiliar.writeUTF(nombre);
-                        auxiliar.writeInt(dni);
-                        auxiliar.writeDouble(altura);
-                    } catch (IOException e) {
-                        JOptionPane.showMessageDialog(null, "Error en entrada/salida");
                     }
                 }
+            } catch (HeadlessException e) {
+                e.printStackTrace();
             }
         } catch (IOException e) {
             JOptionPane.showMessageDialog(null, "No se pudo");
@@ -130,18 +135,19 @@ public class ArchivoPersonas {
     public String leerPersonasAltas() {
         String textoMensaje = "Las personas son: \n";
         try {
-            RandomAccessFile auxiliar = new RandomAccessFile("auxiliar.dat", "rw");
-            Vector<Persona> personas = new Vector<>();
-            auxiliar.seek(0L);
-            while (auxiliar.getFilePointer() < auxiliar.length()) {
-                String nombre = auxiliar.readUTF();
-                int dni = auxiliar.readInt();
-                double altura = auxiliar.readDouble();
-                Persona persona = new Persona(nombre, dni, altura);
-                personas.add(persona);
-            }
-            for (Persona persona : personas) {
-                textoMensaje = textoMensaje + "> " + persona.getNombre() + ", dni: " + persona.getDni() + " con altura: " + persona.getAltura() + "\n";
+            try (RandomAccessFile auxiliar = new RandomAccessFile("auxiliar.dat", "rw")) {
+                Vector<Persona> personas = new Vector<>();
+                auxiliar.seek(0L);
+                while (auxiliar.getFilePointer() < auxiliar.length()) {
+                    String nombre = auxiliar.readUTF();
+                    int dni = auxiliar.readInt();
+                    double altura = auxiliar.readDouble();
+                    Persona persona = new Persona(nombre, dni, altura);
+                    personas.add(persona);
+                }
+                for (Persona persona : personas) {
+                    textoMensaje = textoMensaje + "> " + persona.getNombre() + ", dni: " + persona.getDni() + " con altura: " + persona.getAltura() + "\n";
+                }
             }
             return textoMensaje;
         } catch (IOException e) {

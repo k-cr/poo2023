@@ -1,12 +1,9 @@
 package Gestores;
 
 import javax.swing.*;
-import java.util.Scanner;
 
 public class Esqueleto_gestores {
         public static void main (String[] args) {
-            // Instanciar objetos.
-            Scanner input = new Scanner(System.in);
             int opcion = -1;
             do {
                 try {
