@@ -42,7 +42,9 @@ public class Nodo {
     public boolean tieneHijo() {
         if (this.derecho == null && this.izquierdo != null) {
             return true;
-        } else if (this.derecho != null && this.izquierdo != null) {
+        } else if (this.derecho != null && this.izquierdo == null) {
+            return true;
+        } else if (this.derecho != null) {
             return true;
         } else {
             return false;

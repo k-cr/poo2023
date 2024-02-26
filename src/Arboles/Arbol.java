@@ -1,5 +1,6 @@
 package Arboles;
 
+import java.util.Iterator;
 import java.util.Stack;
 
 public class Arbol {
@@ -352,5 +353,168 @@ public class Arbol {
      */
     public boolean esDerecho() {
         return contarHijosDerecha(raiz) > contarHijosIzquierdo(raiz);
+    }
+
+    /**
+     * Genera un iterador del arbol
+     * @return el iterador del arbol
+     */
+    public Iterador getIterador() {
+        return new Iterador(raiz);
+    }
+
+    public void contarHojaseInterinos() {
+        int contadorHojas = 0;
+        int contadorInterinos = 0;
+        Stack<Nodo> pila = new Stack<>();
+        pila.push(raiz);
+        while (!pila.isEmpty()) {
+            Nodo nodo = pila.pop();
+            if (nodo.esHoja()) {
+                contadorHojas++;
+            } else {
+                contadorInterinos++;
+            }
+
+            if(nodo.getDerecho() != null) {
+                pila.push(nodo.getDerecho());
+            }
+
+            if (nodo.getIzquierdo() != null) {
+                pila.push(nodo.getIzquierdo());
+            }
+        }
+        contadorInterinos--; // Por la raíz
+        System.out.println("Contador hojas: " + contadorHojas);
+        System.out.println("Contador interinos: " + contadorInterinos);
+        if (contadorHojas > contadorInterinos) System.out.println("Hay más hojas que interinos");
+        if (contadorHojas < contadorInterinos) System.out.println("Hay más interinos que hojas");
+        if (contadorHojas == contadorInterinos) System.out.println("Hay igual cantidad");
+    }
+
+    /**
+     * Calcula la altura del árbol y devuelve la altura
+     * @return la altura.
+     */
+    public int obtenerAltura() {
+        if (raiz == null) {
+            return 0;
+        }
+        Stack<Nodo>pila = new Stack<>();
+        Stack<Integer> alturas = new Stack<>();
+        pila.push(raiz);
+        alturas.push(1);
+        int maxAltura = 0;
+        while (!pila.isEmpty()) {
+            Nodo nodo = pila.pop();
+            int alturaActual = alturas.pop();
+            maxAltura = Math.max(maxAltura, alturaActual);
+
+            if (nodo.getIzquierdo() != null) {
+                pila.push(nodo.getIzquierdo());
+                alturas.push(alturaActual + 1);
+            }
+
+            if (nodo.getDerecho() != null) {
+                pila.push(nodo.getDerecho());
+                alturas.push(alturaActual + 1);
+            }
+        }
+        return maxAltura;
+    }
+
+    /**
+     * Calcula la altura máxima del árbol
+     * @param nodo nodo de donde arranca
+     * @return la altura en cuestión
+     */
+    public int calcularAltura(Nodo nodo) {
+        if (nodo == null) {
+            return 0;
+        }
+        int alturaIzquierda = calcularAltura(nodo.getIzquierdo());
+        int alturaDerecha = calcularAltura(nodo.getDerecho());
+
+        if (alturaIzquierda > alturaDerecha) {
+            return alturaIzquierda + 1;
+        } else {
+            return alturaDerecha + 1;
+        }
+    }
+
+    public void masHojasQueInterinos() {
+        Iterador iterador = (Iterador) getIterador();
+    }
+
+    /**
+     * Llama al método verificar derecho para saber si es diestro o no
+     * @return devuelve true si es diestro
+     */
+    public boolean esDerechoRecursivo () {
+        return verificarDerecho(this.raiz, 0) >= 0;
+    }
+
+    /**
+     * Recorre el árbol para verificar las alturas izquierdas y derechas para comparación
+     * @param nodo
+     * @param altura
+     * @return la altura derecha (en caso de que sea diestro), -1 si es zurdo
+     */
+    public int verificarDerecho(Nodo nodo, int altura) {
+        if (nodo == null) {
+            return 0;
+        }
+
+        int alturaIzquierda = verificarDerecho(nodo.getIzquierdo(), altura + 1);
+        int alturaDerecha = verificarDerecho(nodo.getDerecho(), altura + 1);
+
+        if (alturaDerecha >= alturaIzquierda) {
+            return alturaDerecha + 1;
+        } else {
+            return -1;
+        }
+    }
+
+    /**
+     * Cuenta la cantidad de elementos
+     * @return utiliza iteradores para contarlos.
+     */
+    public int cantidadElementos() {
+        int cantidad = 0;
+        Iterator<Integer> iterador = (Iterator<Integer>) getIterador();
+        while (iterador.hasNext()){
+            iterador.next();
+            cantidad++;
+        }
+        return cantidad;
+    }
+
+    /**
+     * Recorre elemento por elemento viendo si es hoja o no.
+     */
+    public void imprimirHojas() {
+        Iterator<Integer> iterador = (Iterator<Integer>) getIterador();
+        while (iterador.hasNext()) {
+            int valor = iterador.next();
+            Nodo buscar = encontrarNodo(valor);
+            if (buscar.esHoja()) {
+                System.out.println(buscar.getInfo() + " ");
+            }
+        }
+    }
+
+    /**
+     * Retorna la suma de los cuadrados de los elementos
+     * @return la suma de los cuadrados de los elementos
+     */
+    public int sumaCuadrado() {
+        int suma = 0;
+        Iterator<Integer> iterator = (Iterator<Integer>) getIterador();
+        while (iterator.hasNext()) {
+            int valor = iterator.next();
+            int potencia = valor^2;
+            suma += potencia;
+        }
+        return suma;
     }
 }

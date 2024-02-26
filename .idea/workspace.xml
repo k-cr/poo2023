@@ -7,50 +7,140 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d31ddb-21d0-44d4-9dc4-f1c6aaf96006" name="Changes" comment="Programa mateo">
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Arbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/ColaDePrioridad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Entrega_6/Arbol_entrega_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Main_Arbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Main_ColaDeProridad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Main_Monticulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Monticulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_11/Arbol_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_11/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_15/Arbol_15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_15/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_20/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_9/Arbol_9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Clase18_5_2023/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Entrega2_Listas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Entrega2_Listas/MainEntrega.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Entrega2_Listas/Tren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Entrega2_Listas/Vagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Entrega_Listas/ListaLoca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Entrega_Listas/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_10/IteradorLista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_10/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_10/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_6/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_6/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_7/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_7/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_8/IteradorLista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_8/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_8/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_9/IteradorLista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_9/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listas/Punto_9/Nodo.java" afterDir="false" />
+    <list default="true" id="f1d31ddb-21d0-44d4-9dc4-f1c6aaf96006" name="Changes" comment="Cursada terminada 2023">
+      <change afterPath="$PROJECT_DIR$/src/Arboles/ArbolExpresion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arboles/Expresion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arboles/Iterador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arboles/NodoBinario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arboles/NodoExpresion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arboles/NodoHoja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arboles/NodoInterno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_25/Cola_Punto_25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_25/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_25/Monticulo_Punto_25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_25/Trabajo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arboles/Punto_26/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Compensatorio_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Arbol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Arbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/ArbolChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/ArbolChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/ArbolCont.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/ArbolCont.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Bosque.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Bosque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/CP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/CP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/ColaDePrioridad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/ColaDePrioridad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/ColaDePrioridadA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/ColaDePrioridadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/IteradorDeArbol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/IteradorDeArbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Main4_8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Main4_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/MainArbol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/MainArbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/MainArbol15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/MainArbol15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/MainArbolBinario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/MainArbolBinario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/MainArbolCont.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/MainArbolCont.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Mainejemplo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Mainejemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Monticulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Monticulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Nodo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/NodoArbol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/NodoArbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/NodoArbolChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/NodoArbolChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/NodoCont.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/NodoCont.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Trabajo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/Trabajo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Arbolitos/arboles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E10/ListaModificada.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E10/ListaModificada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E10/Nodo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E10/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E12/IteradorLista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E12/IteradorLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E12/Listacircular.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E12/Listacircular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E12/Nodo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E12/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E12/PruebaListas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E12/PruebaListas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/IteradorLista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/IteradorLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/Lista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/Listacircular.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/Listacircular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/Listadoble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/Listadoble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/Nododoble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/Nododoble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/Nodosimple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/Nodosimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/TestListasEnlazadas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E15/TestListasEnlazadas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/IteradorLista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/IteradorLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/Lista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/ListaDesord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/ListaDesord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/ListaLoca.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/ListaLoca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/Nodo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/PilaEnteros.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/PilaEnteros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/PruebaListas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/PruebaListas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/Pruebaiterador.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E6/Pruebaiterador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E7/ListaDesord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E7/ListaDesord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E7/Nodo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E7/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E8/IteradorLista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E8/IteradorLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E8/Lista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E8/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E8/Nodo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E8/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E8/PruebaListas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E8/PruebaListas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E9/ListaPoli.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E9/ListaPoli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E9/Nodo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E9/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E9/Polinomio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E9/Polinomio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E9/TestLista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/E9/TestLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/Iterador/IteradorLista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/Iterador/IteradorLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/Iterador/ListaPoli.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/Iterador/ListaPoli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/Iterador/Nodo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/Iterador/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/Iterador/TestLista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/Iterador/TestLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fabri/Listulis/Lista TP.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parcial_2/Iterador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parcial_2/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parcial_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parcial_2/Nodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Excepciones/Punto_7_Hashtable/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Excepciones/Punto_7_Hashtable/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arboles/Arbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arboles/Arbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arboles/Monticulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arboles/Monticulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arboles/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arboles/Nodo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +179,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TheTi/OneDrive/Documentos/NetBeansProjects&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
@@ -133,14 +224,27 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Programa mateo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programa mateo" />
+    <MESSAGE value="Cursada terminada 2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cursada terminada 2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Fabri/Listulis/E15/Lista.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="dart-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Arboles.Iterador" memberName="actual" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
